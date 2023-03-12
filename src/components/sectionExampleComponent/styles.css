@@ -1,0 +1,9 @@
+section{
+    min-height: 300px;
+    background-color: beige;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

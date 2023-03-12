@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section-example-component
+     title="Hola"
+     description="lorem ifhsi ehgnr asetre ursop ertas detium opertu asderul oprentu"
+     background="cyan"
+     >
+        <p>this is the slot</p>
+    </section-example-component>
+
+    <section-component title="Componente 2"></section-component>
+    <section-component title="Componente 3"></section-component>
+
+    <h2>Este H2 es independiente</h2>
+    <h2>Este H2 es independiente</h2>
+    <h2>Este H2 es independiente</h2>
+    <h2>Este H2 es independiente</h2>
+    <h2>Este H2 es independiente</h2>
+    <button id="background-button"> Click me to change color</button>
+
+
+    <section-example-component
+    title="My to do list"
+    description="Tareas importantes"
+    background="mediumpurple"
+    >
+       <input type="text" name ="create-to-do" id="create-to-do">
+       <button id="to-do-btn">create</button>
+       <ul id="to-do-list">
+        <to-do-item task="Hacer Tareas de la u"></to-do-item>
+       </ul>
+</section-example-component>
+
+
+
+
+    <!-- When using a JS module, the code has to run in a server (live server in VS code) -->
+    <script type="module" src="/src/index.js"></script>
+</body>
+</html>
